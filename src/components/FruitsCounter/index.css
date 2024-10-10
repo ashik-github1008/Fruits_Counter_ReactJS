@@ -1,1 +1,86 @@
 /* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.card-inside-container {
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .card-inside-container {
+    padding: 24px;
+    /* padding: 6px; */
+    /* align-items: center; */
+  }
+}
+
+.fruit-image {
+  width: 210px;
+  margin-bottom: 28px;
+}
+
+@media (min-width: 768px) {
+  .fruit-image {
+    width: 265px;
+  }
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .fruits-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.fruit-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 38px;
+}
+
+@media (min-width: 768px) {
+  .mango-container {
+    margin-right: 34px;
+  }
+}
+
+.heading {
+  margin-bottom: 58px;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 42px;
+  }
+}
+
+.eat-btn {
+  background-color: #007bff;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .eat-btn {
+    font-size: 15px;
+  }
+}
